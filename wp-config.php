@@ -113,6 +113,10 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
+define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
 
 /* That's all, stop editing! Happy blogging. */
 
